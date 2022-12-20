@@ -1,23 +1,11 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
-
+import MinTotCost from './component/MinTotCost/MinTotCost';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h4>Optimal Replacement Interval for capital Equipment: Minimization of total cost</h4>
+      <MinTotCost></MinTotCost>
     </div>
   );
 }
