@@ -2,8 +2,9 @@ import React from 'react';
 import './App.css';
 import MinTotCost from './component/MinTotCost/MinTotCost';
 import TechImpFin from './component/TechImpFin/TechImpFin';
-import TechImpInfin from './component/TechImpInfin/TechImpInfin';
+import NotFound from './component/NotFound/NotFound';
 import {
+
   BrowserRouter as Router,
   Switch,
   Route,
@@ -19,9 +20,6 @@ function App() {
         <h4>
           <Link className='linkStyle' to="/TechImpFin">Technological Improvement : Finite Planning Horizon</Link>
         </h4>
-        <h4>
-          <Link className='linkStyle' to="/TechImpInfin">Technological Improvement : Infinite Planning Horizon</Link>
-        </h4>
         <Switch>
           <Route path='/MinTotCost'>
             <MinTotCost />
@@ -29,8 +27,8 @@ function App() {
           <Route path='/TechImpFin'>
             <TechImpFin />
           </Route>
-          <Route path='/TechImpInfin'>
-            <TechImpInfin />
+          <Route path='/'>
+            <NotFound></NotFound>
           </Route>
         </Switch>
       </Router>
