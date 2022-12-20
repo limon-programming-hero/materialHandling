@@ -27,7 +27,7 @@ function App() {
           <Route path='/TechImpFin'>
             <TechImpFin />
           </Route>
-          <Route path='/'>
+          <Route path='/*'>
             <NotFound></NotFound>
           </Route>
         </Switch>
