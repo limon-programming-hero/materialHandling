@@ -2,7 +2,6 @@ import React from 'react';
 import './App.css';
 import MinTotCost from './component/MinTotCost/MinTotCost';
 import TechImpFin from './component/TechImpFin/TechImpFin';
-import NotFound from './component/NotFound/NotFound';
 import {
 
   BrowserRouter as Router,
@@ -26,9 +25,6 @@ function App() {
           </Route>
           <Route path='/TechImpFin'>
             <TechImpFin />
-          </Route>
-          <Route path='/*'>
-            <NotFound></NotFound>
           </Route>
         </Switch>
       </Router>
