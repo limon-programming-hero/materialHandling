@@ -1,0 +1,20 @@
+.main{
+    margin: 30px;
+}
+td,
+th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    /* width: 20px; */
+    margin: 20px auto;
+}
+
+table {
+    margin-left: 60px;
+    padding: 20px;
+    border: 1px solid lightgray;
+}
+
+td:hover {
+    background-color: lightgrey;
+}

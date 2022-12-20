@@ -1,3 +1,17 @@
+.linkStyle {
+  text-decoration: none;
+  color: black;
+  border: 1px solid gray;
+  padding: 5px;
+  margin: 10px;
+  background-color: rgba(173, 216, 230, 0.343);
+}
+
+.linkStyle:hover {
+  background-color: lightgray;
+}
+
 .App {
   text-align: center;
+  text-decoration: none;
 }

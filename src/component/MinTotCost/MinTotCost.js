@@ -61,6 +61,7 @@ const MinTotCost = () => {
 
     return (
         <div>
+            <h4>Optimal Replacement Interval for capital Equipment: Minimization of total cost</h4>
             <form onSubmit={HandlerSubmit}>
                 <p>Acquisition Cost, A = <input type="text" name='acquisition' onBlur={HandlerBlur} placeholder='Acquisition Cost' required /></p>
                 <p>Discount rate, r = <input type="text" name='rate' placeholder='Discount rate' onBlur={HandlerBlur} required /></p>
@@ -126,7 +127,7 @@ const MinTotCost = () => {
                             )}
                         </tr>
                     </table>
-                    <p>From the table minimum Cost: {values.minimumCost}. So we will replace after {values.lestYear} year</p>
+                    <h4>From the table minimum Cost: {values.minimumCost}. So we will replace after {values.lestYear} year.</h4>
                 </div>}
         </div>
     );
